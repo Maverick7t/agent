@@ -90,7 +90,7 @@ export default function App() {
     setInput("");
 
     try {
-      const response = await fetch("http://localhost:8000/ask", {
+      const response = await fetch("https://agent-g6k3.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
@@ -160,7 +160,7 @@ export default function App() {
                 </div>
               </div>
             </div>
-            
+
 
             {/* Hero text */}
             <div className="max-w-4xl mx-auto space-y-6 mb-12">
@@ -180,7 +180,7 @@ export default function App() {
             </div>
           </>
         )}
-        
+
 
         {/* Shared layout morph: Button ↔ Search bar */}
         <motion.div layoutId="cta" className="w-full flex justify-center">
@@ -270,13 +270,13 @@ export default function App() {
               ))}
             </AnimatePresence>
             <div ref={messagesEndRef} />
-          </div>        
+          </div>
         )}
       </div>
       {/* Developed by line with spacing */}
       <div className="mb-10 text-gray-400 text-sm text-center w-full">
         Developed and created by Aktar
-    </div>
+      </div>
     </div>
   );
 }
