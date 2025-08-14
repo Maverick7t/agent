@@ -47,8 +47,8 @@ async def lifespan(app: FastAPI):
     await init_agent()
     yield
     # Shutdown
-    if session:
-        await session.close()
+    #if session:
+        #await session.close()
 
 app = FastAPI(lifespan=lifespan)
 
