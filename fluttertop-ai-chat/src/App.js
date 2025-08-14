@@ -166,16 +166,16 @@ export default function App() {
             <div className="max-w-4xl mx-auto space-y-6 mb-12">
               <h1 className="text-5xl lg:text-7xl font-black leading-tight">
                 <span className="bg-gradient-to-r from-white via-blue-200 to-purple-300 bg-clip-text text-transparent">
-                  Your Personal
+                  Your smart
                 </span>
                 <br />
                 <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  Work Assistant
+                  Work Companion
                 </span>
               </h1>
 
               <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-                Experience the future of working Ai Companion
+                Ask. Explore. Discover. Get Things Done.
               </p>
             </div>
           </>
