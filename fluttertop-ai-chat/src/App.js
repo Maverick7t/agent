@@ -90,7 +90,7 @@ export default function App() {
     setInput("");
 
     try {
-      const response = await fetch("https://agent-g6k3.onrender.com/ask", {
+      const response = await fetch("https://agent-qj50.onrender.com/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
