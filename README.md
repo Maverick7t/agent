@@ -47,6 +47,7 @@ To get a local copy up and running, follow these steps:
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 
 
-![Alt text](path/to/https://github.com/Maverick7t/agent/blob/main/fluttertop-ai-chat/animation.gif)
+![Alt text](https://raw.githubusercontent.com/Maverick7t/agent/main/fluttertop-ai-chat/animation.gif)
+
 
 
