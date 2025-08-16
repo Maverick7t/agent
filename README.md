@@ -46,14 +46,20 @@ To get a local copy up and running, follow these steps:
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 
-##Access to agent
-## View the live project
-
-[Check out the live demo →](https://maverick7t.github.io/agent/)
 
 
 
-![Chat Demo](https://github.com/Maverick7t/agent/blob/main/Untitled%20video%20-%20Made%20with%20Clipchamp.mp4.gif)
+## Live Demo
+[View the live project here](https://maverick7t.github.io/agent/)
+
+### Why the project might not be working
+1. Firecrawl credits may be consumed (no responses).
+2. Backend service on Render might be stopped.
+3. Free OpenRouter DeepSeek model may be unavailable or too slow.
+
+### How to mitigate
+- Upgrade to premium services for more stable performance.
+- With premium credits and backend uptime, this agent works much smoother.
 
 
 
