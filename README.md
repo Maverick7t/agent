@@ -46,6 +46,12 @@ To get a local copy up and running, follow these steps:
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 
+##Access to agent
+## View the live project
+
+[Check out the live demo →](https://maverick7t.github.io/agent/)
+
+
 
 ![Chat Demo](https://github.com/Maverick7t/agent/blob/main/Untitled%20video%20-%20Made%20with%20Clipchamp.mp4.gif)
 
