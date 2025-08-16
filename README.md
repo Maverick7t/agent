@@ -62,7 +62,7 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 - With premium credits and backend uptime, this agent works much smoother.
 
 
-[▶ Watch Demo](https://github.com/Maverick7t/agent/blob/main/fluttertop-ai-chat/animation.mp4)
+![Chat Demo](https://raw.githubusercontent.com/Maverick7t/agent/main/fluttertop-ai-chat/animation.gif)
 
 
 
