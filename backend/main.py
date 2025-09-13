@@ -18,11 +18,12 @@ session = None
 tools = None
 agent = None
 
-model = ChatOpenAI(
-    model="deepseek/deepseek-chat-v3-0324:free",
-    temperature=0,
-    api_key=os.getenv("OPENROUTER_API_KEY"),
-    base_url="https://openrouter.ai/api/v1"
+model = ChatNVIDIA(
+    model="openai/gpt-oss-120b",
+    api_key=os.getenv("NVIDIA_API_KEY"),
+    temperature=1,
+    top_p=1,
+    max_completion_tokens=4096,  # Fixed: Back to max_completion_tokens (correct for NVIDIA)
 )
 
 server_params = StdioServerParameters(
